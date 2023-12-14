@@ -1,0 +1,24 @@
+{
+  "name": "bevy-to-notion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "pnpm build && node ./dist/main.js",
+    "build": "rimraf ./dist && tsc"
+  },
+  "keywords": [],
+  "author": "OldBigBuddha<contact@oldbigbuddha.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node20": "20.1.2",
+    "@tsconfig/strictest": "2.0.2",
+    "@types/node": "20.10.4",
+    "rimraf": "5.0.5",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@notionhq/client": "2.2.14",
+    "dotenv": "16.3.1"
+  }
+}
